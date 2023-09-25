@@ -10,7 +10,6 @@ This is a Solidity smart contract for an English auction, implemented using the 
   - [Installation](#installation)
 - [Usage](#usage)
 - [Smart Contract Details](#smart-contract-details)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
@@ -32,40 +31,53 @@ Before getting started, you need to have the following tools installed on your s
 1. Clone this repository:
 
    ```shell
-   git clone <repository-url>
+   git clone 
+   ```
+
 2. Navigate to the project directory:
 
     ```shell
     cd english-auction-smart-contract
+    ```
+
 3. Install the project dependencies:
 
     ```shell
     npm install
+    ```
+
 4. Start Ganache for local development:
 
     ```shell
     ganache-cli
+    ```
+
 5. Compile the smart contracts:
 
     ```shell
     truffle compile
+    ```
+
 6. Migrate the smart contracts to your local blockchain:
 
     ```shell
     truffle migrate --network development
     ```
+
 ### Usage
 
 The Contract will be automatically run when deployed to show the different use cases.
 
 ### Smart Contract Details
-The main smart contract file is located in the contracts/ EnglishAuction. 
+
+The main smart contract file is located in the contracts/ EnglishAuction.
 
 ### License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ### Contact
+
 If you have any questions or issues, please feel free to reach out to [mhmd.lhsn@outlook.com](mailto:mhmd.lhsn@outlook.com).
 
 Happy auctioning!
-
